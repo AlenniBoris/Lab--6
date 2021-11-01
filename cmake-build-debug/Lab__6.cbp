@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Proga for BSU/Lab--6/FunctionsLab.cpp">
+			<Option target="Lab__6"/>
+		</Unit>
+		<Unit filename="C:/Proga for BSU/Lab--6/FunctionsLab.h">
+			<Option target="Lab__6"/>
+		</Unit>
 		<Unit filename="C:/Proga for BSU/Lab--6/class.h">
 			<Option target="Lab__6"/>
 		</Unit>

@@ -1,5 +1,5 @@
 
-#include "functions.cpp"
+#include "FunctionsLab.cpp"
 
 int main() {
     solution();

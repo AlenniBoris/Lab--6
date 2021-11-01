@@ -118,6 +118,30 @@ Lab__6\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab__6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab__6.dir\build
 .PHONY : Lab__6\fast
 
+FunctionsLab.obj: FunctionsLab.cpp.obj
+.PHONY : FunctionsLab.obj
+
+# target to build an object file
+FunctionsLab.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab__6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab__6.dir\FunctionsLab.cpp.obj
+.PHONY : FunctionsLab.cpp.obj
+
+FunctionsLab.i: FunctionsLab.cpp.i
+.PHONY : FunctionsLab.i
+
+# target to preprocess a source file
+FunctionsLab.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab__6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab__6.dir\FunctionsLab.cpp.i
+.PHONY : FunctionsLab.cpp.i
+
+FunctionsLab.s: FunctionsLab.cpp.s
+.PHONY : FunctionsLab.s
+
+# target to generate assembly for a file
+FunctionsLab.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab__6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab__6.dir\FunctionsLab.cpp.s
+.PHONY : FunctionsLab.cpp.s
+
 functions.obj: functions.cpp.obj
 .PHONY : functions.obj
 
@@ -175,6 +199,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Lab__6
+	@echo ... FunctionsLab.obj
+	@echo ... FunctionsLab.i
+	@echo ... FunctionsLab.s
 	@echo ... functions.obj
 	@echo ... functions.i
 	@echo ... functions.s
