@@ -118,29 +118,29 @@ Lab__6\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab__6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab__6.dir\build
 .PHONY : Lab__6\fast
 
-functions__solution.obj: functions__solution.cpp.obj
-.PHONY : functions__solution.obj
+functions.obj: functions.cpp.obj
+.PHONY : functions.obj
 
 # target to build an object file
-functions__solution.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab__6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab__6.dir\functions__solution.cpp.obj
-.PHONY : functions__solution.cpp.obj
+functions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab__6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab__6.dir\functions.cpp.obj
+.PHONY : functions.cpp.obj
 
-functions__solution.i: functions__solution.cpp.i
-.PHONY : functions__solution.i
+functions.i: functions.cpp.i
+.PHONY : functions.i
 
 # target to preprocess a source file
-functions__solution.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab__6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab__6.dir\functions__solution.cpp.i
-.PHONY : functions__solution.cpp.i
+functions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab__6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab__6.dir\functions.cpp.i
+.PHONY : functions.cpp.i
 
-functions__solution.s: functions__solution.cpp.s
-.PHONY : functions__solution.s
+functions.s: functions.cpp.s
+.PHONY : functions.s
 
 # target to generate assembly for a file
-functions__solution.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab__6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab__6.dir\functions__solution.cpp.s
-.PHONY : functions__solution.cpp.s
+functions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab__6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab__6.dir\functions.cpp.s
+.PHONY : functions.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -175,9 +175,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Lab__6
-	@echo ... functions__solution.obj
-	@echo ... functions__solution.i
-	@echo ... functions__solution.s
+	@echo ... functions.obj
+	@echo ... functions.i
+	@echo ... functions.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

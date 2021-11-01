@@ -1,5 +1,5 @@
 
-#include "functions__solution.cpp"
+#include "functions.cpp"
 
 int main() {
     solution();
