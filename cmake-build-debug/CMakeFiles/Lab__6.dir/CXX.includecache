@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Proga for BSU/Lab--6/class.h
+iostream
+-
+cassert
+-
+
+C:/Proga for BSU/Lab--6/functions__solution.cpp
+class.h
+C:/Proga for BSU/Lab--6/class.h
+
+C:/Proga for BSU/Lab--6/main.cpp
+functions__solution.cpp
+C:/Proga for BSU/Lab--6/functions__solution.cpp
+
