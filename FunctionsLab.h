@@ -1,7 +1,3 @@
-//
-// Created by Xiaomi on 01.11.2021.
-//
-
 #ifndef LAB__6_FUNCTIONSLAB_H
 #define LAB__6_FUNCTIONSLAB_H
 
@@ -30,6 +26,7 @@ public:
     int GetNumerator();
     int GetDenominator();
     void PrintFraction();
+//    void GetNumbers();
     fraction ProperFraction();
     fraction GetFraction();
     static fraction Sum(fraction a, fraction b);
@@ -37,7 +34,5 @@ public:
     static fraction Division(fraction a, fraction b);
 };
 void solution();
-
-
 
 #endif //LAB__6_FUNCTIONSLAB_H

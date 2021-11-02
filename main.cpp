@@ -1,5 +1,4 @@
-
-#include "FunctionsLab.cpp"
+#include "FunctionsLab.h"
 
 int main() {
     solution();

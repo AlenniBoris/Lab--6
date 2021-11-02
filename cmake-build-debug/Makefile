@@ -142,30 +142,6 @@ FunctionsLab.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab__6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab__6.dir\FunctionsLab.cpp.s
 .PHONY : FunctionsLab.cpp.s
 
-functions.obj: functions.cpp.obj
-.PHONY : functions.obj
-
-# target to build an object file
-functions.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab__6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab__6.dir\functions.cpp.obj
-.PHONY : functions.cpp.obj
-
-functions.i: functions.cpp.i
-.PHONY : functions.i
-
-# target to preprocess a source file
-functions.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab__6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab__6.dir\functions.cpp.i
-.PHONY : functions.cpp.i
-
-functions.s: functions.cpp.s
-.PHONY : functions.s
-
-# target to generate assembly for a file
-functions.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Lab__6.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Lab__6.dir\functions.cpp.s
-.PHONY : functions.cpp.s
-
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -202,9 +178,6 @@ help:
 	@echo ... FunctionsLab.obj
 	@echo ... FunctionsLab.i
 	@echo ... FunctionsLab.s
-	@echo ... functions.obj
-	@echo ... functions.i
-	@echo ... functions.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

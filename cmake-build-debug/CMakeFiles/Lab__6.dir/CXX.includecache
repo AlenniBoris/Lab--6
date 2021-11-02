@@ -6,19 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Proga for BSU/Lab--6/FunctionsLab.cpp
-FunctionsLab.h
-C:/Proga for BSU/Lab--6/FunctionsLab.h
-
 C:/Proga for BSU/Lab--6/FunctionsLab.h
 iostream
 -
 cassert
 -
 
-C:/Proga for BSU/Lab--6/functions.cpp
-
 C:/Proga for BSU/Lab--6/main.cpp
-FunctionsLab.cpp
-C:/Proga for BSU/Lab--6/FunctionsLab.cpp
+FunctionsLab.h
+C:/Proga for BSU/Lab--6/FunctionsLab.h
 

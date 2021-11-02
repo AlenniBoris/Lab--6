@@ -4,9 +4,6 @@
 CMakeFiles\Lab__6.dir\FunctionsLab.cpp.obj: ..\FunctionsLab.cpp
 CMakeFiles\Lab__6.dir\FunctionsLab.cpp.obj: ..\FunctionsLab.h
 
-CMakeFiles\Lab__6.dir\functions.cpp.obj: ..\functions.cpp
-
-CMakeFiles\Lab__6.dir\main.cpp.obj: ..\FunctionsLab.cpp
 CMakeFiles\Lab__6.dir\main.cpp.obj: ..\FunctionsLab.h
 CMakeFiles\Lab__6.dir\main.cpp.obj: ..\main.cpp
 

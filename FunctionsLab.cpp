@@ -1,8 +1,6 @@
-//
-// Created by Xiaomi on 01.11.2021.
-//
-
 #include "FunctionsLab.h"
+
+
 fraction fraction::ProperFraction(){
     fraction fr(num, denominator);
     if(denominator < 0 && num < 0 ){
@@ -28,6 +26,12 @@ void fraction::PrintFraction(){
     fraction fr = ProperFraction();
     cout << fr.GetNumerator() << '/' << fr.GetDenominator() <<endl;
 }
+//void fraction::GetNumbers(){
+//    cout << "Enter numerator: " ;
+//    cin >> num;
+//    cout << "Enter denominator: " ;
+//    cin >> denominator;
+//}
 int fraction::gcd(int a, int b) {
     while (b) {
         a %= b;
