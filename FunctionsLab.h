@@ -29,9 +29,9 @@ public:
 //    void GetNumbers();
     fraction ProperFraction();
     fraction GetFraction();
-    static fraction Sum(fraction a, fraction b);
-    static fraction Multiply(fraction a, fraction b);
-    static fraction Division(fraction a, fraction b);
+    static fraction Sum(fraction Frac1, fraction Frac2);
+    static fraction Multiply(fraction Frac1, fraction Frac2);
+    static fraction Division(fraction Frac1, fraction Frac2);
 };
 void solution();
 

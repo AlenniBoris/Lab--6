@@ -26,12 +26,6 @@ void fraction::PrintFraction(){
     fraction fr = ProperFraction();
     cout << fr.GetNumerator() << '/' << fr.GetDenominator() <<endl;
 }
-//void fraction::GetNumbers(){
-//    cout << "Enter numerator: " ;
-//    cin >> num;
-//    cout << "Enter denominator: " ;
-//    cin >> denominator;
-//}
 int fraction::gcd(int a, int b) {
     while (b) {
         a %= b;
@@ -43,36 +37,37 @@ fraction fraction::GetFraction() {
     fraction fr(num, denominator);
     return fr;
 }
-fraction fraction::Sum(fraction a, fraction b) {
-    int up_result = a.GetDenominator()*b.GetNumerator() + b.GetDenominator()*a.GetNumerator();
-    int down_result = a.GetDenominator()*b.GetDenominator();
+fraction fraction::Sum(fraction x, fraction y) {
+    int up_result = x.GetDenominator()*y.GetNumerator() + y.GetDenominator()*x.GetNumerator();
+    int down_result = x.GetDenominator()*y.GetDenominator();
     fraction fr_sum(up_result, down_result);
     return fr_sum;
 }
 
-fraction fraction::Multiply(fraction a, fraction b ){
-    int up_result = a.GetNumerator()*b.GetNumerator();
-    int down_result = a.GetDenominator()*b.GetDenominator();
+fraction fraction::Multiply(fraction x, fraction y){
+    int up_result = x.GetNumerator()*y.GetNumerator();
+    int down_result = x.GetDenominator()*y.GetDenominator();
     fraction fr_mult(up_result,down_result);
     return fr_mult;
 }
 
-fraction fraction::Division(fraction a, fraction b){
-    int up_result = a.GetNumerator()*b.GetDenominator();
-    int down_result = a.GetDenominator()*b.GetNumerator();
+fraction fraction::Division(fraction x, fraction y){
+    int up_result = x.GetNumerator()*y.GetDenominator();
+    int down_result = x.GetDenominator()*y.GetNumerator();
     fraction fr_div(up_result,down_result);
     return fr_div;
 }
+
 void solution() {
-    fraction MyFraction1(3, 5);
-    fraction MyFraction2(2, 4);
-    MyFraction1.PrintFraction();
-    MyFraction2.PrintFraction();
-    fraction fr_sum = fraction::Sum(MyFraction1, MyFraction2);
+    fraction Frac1(51, 78);
+    fraction Frac2(13, 16);
+    Frac1.PrintFraction();
+    Frac2.PrintFraction();
+    fraction fr_sum = fraction::Sum(Frac1, Frac2);
     fr_sum.PrintFraction();
-    fraction fr_mult = fraction::Multiply(MyFraction1, MyFraction2);
-    fr_mult.PrintFraction();
-    fraction fr_div = fraction::Division(MyFraction1, MyFraction2);
+    fraction frMult = fraction::Multiply(Frac1, Frac2);
+    frMult.PrintFraction();
+    fraction fr_div = fraction::Division(Frac1, Frac2);
     fr_div.PrintFraction();
 }
 
