@@ -15,8 +15,8 @@ private:
     }
 public:
     fraction(int num, int denominator){
-        this->num = num;
-        this->denominator = denominator;
+        (*this).num = num;
+        (*this).denominator = denominator;
         assert(denominator != 0);
     }
     fraction(const fraction &frac){
@@ -26,9 +26,7 @@ public:
     int GetNumerator();
     int GetDenominator();
     void PrintFraction();
-//    void GetNumbers();
     fraction ProperFraction();
-    fraction GetFraction();
     static fraction Sum(fraction Frac1, fraction Frac2);
     static fraction Multiply(fraction Frac1, fraction Frac2);
     static fraction Division(fraction Frac1, fraction Frac2);

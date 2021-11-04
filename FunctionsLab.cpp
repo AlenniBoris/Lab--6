@@ -27,15 +27,14 @@ void fraction::PrintFraction(){
     cout << fr.GetNumerator() << '/' << fr.GetDenominator() <<endl;
 }
 int fraction::gcd(int a, int b) {
-    while (b) {
-        a %= b;
-        swap (a, b);
+    if (a < b) {
+        swap(a, b);
     }
-    return a;
-}
-fraction fraction::GetFraction() {
-    fraction fr(num, denominator);
-    return fr;
+    while (a % b != 0) {
+        a = a % b;
+        swap(a, b);
+    }
+    return b;
 }
 fraction fraction::Sum(fraction x, fraction y) {
     int up_result = x.GetDenominator()*y.GetNumerator() + y.GetDenominator()*x.GetNumerator();
