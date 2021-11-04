@@ -11,8 +11,8 @@ fraction fraction::ProperFraction(){
         fraction fr2(-num, -denominator);
         fr = fr2;
     }
-    int p = gcd(num, denominator);
-    fraction fr4(fr.GetNumerator()/p, fr.GetDenominator()/p);
+    int NOD = gcd(num, denominator);
+    fraction fr4(fr.GetNumerator()/NOD, fr.GetDenominator()/NOD);
     fr = fr4;
     return fr;
 }
@@ -22,9 +22,9 @@ int fraction::GetNumerator(){
 int fraction::GetDenominator(){
     return denominator;
 }
-void fraction::PrintFraction(){
-    fraction fr = ProperFraction();
-    cout << fr.GetNumerator() << '/' << fr.GetDenominator() <<endl;
+void fraction::ShowFraction(){
+    fraction FracAfterGCD = ProperFraction();
+    cout << FracAfterGCD.GetNumerator() << '/' << FracAfterGCD.GetDenominator() <<endl;
 }
 int fraction::gcd(int a, int b) {
     if (a < b) {
@@ -60,13 +60,13 @@ fraction fraction::Division(fraction x, fraction y){
 void solution() {
     fraction Frac1(51, 78);
     fraction Frac2(13, 16);
-    Frac1.PrintFraction();
-    Frac2.PrintFraction();
+    Frac1.ShowFraction();
+    Frac2.ShowFraction();
     fraction fr_sum = fraction::Sum(Frac1, Frac2);
-    fr_sum.PrintFraction();
+    fr_sum.ShowFraction();
     fraction frMult = fraction::Multiply(Frac1, Frac2);
-    frMult.PrintFraction();
+    frMult.ShowFraction();
     fraction fr_div = fraction::Division(Frac1, Frac2);
-    fr_div.PrintFraction();
+    fr_div.ShowFraction();
 }
 
