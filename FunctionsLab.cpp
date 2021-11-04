@@ -1,6 +1,5 @@
 #include "FunctionsLab.h"
 
-
 fraction fraction::ProperFraction(){
     fraction fr(num, denominator);
     if(denominator < 0 && num < 0 ){
@@ -16,16 +15,20 @@ fraction fraction::ProperFraction(){
     fr = fr4;
     return fr;
 }
+
 int fraction::GetNumerator(){
     return num;
 }
+
 int fraction::GetDenominator(){
     return denominator;
 }
+
 void fraction::ShowFraction(){
     fraction FracAfterGCD = ProperFraction();
     cout << FracAfterGCD.GetNumerator() << '/' << FracAfterGCD.GetDenominator() <<endl;
 }
+
 int fraction::gcd(int a, int b) {
     if (a < b) {
         swap(a, b);
@@ -36,6 +39,7 @@ int fraction::gcd(int a, int b) {
     }
     return b;
 }
+
 fraction fraction::Sum(fraction x, fraction y) {
     int up_result = x.GetDenominator()*y.GetNumerator() + y.GetDenominator()*x.GetNumerator();
     int down_result = x.GetDenominator()*y.GetDenominator();
