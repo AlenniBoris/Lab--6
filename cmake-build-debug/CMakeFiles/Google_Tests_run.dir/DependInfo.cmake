@@ -8,7 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Proga for BSU/Lab--6/tests.cpp" "C:/Proga for BSU/Lab--6/cmake-build-debug/CMakeFiles/Google_Tests_run.dir/tests.cpp.obj"
+  "C:/Proga for BSU/Lab--6/Functions/FunctionsLab.cpp" "C:/Proga for BSU/Lab--6/cmake-build-debug/CMakeFiles/Google_Tests_run.dir/Functions/FunctionsLab.cpp.obj"
+  "C:/Proga for BSU/Lab--6/TestsLab6/TestsForDivision.cpp" "C:/Proga for BSU/Lab--6/cmake-build-debug/CMakeFiles/Google_Tests_run.dir/TestsLab6/TestsForDivision.cpp.obj"
+  "C:/Proga for BSU/Lab--6/TestsLab6/TestsForMultiply.cpp" "C:/Proga for BSU/Lab--6/cmake-build-debug/CMakeFiles/Google_Tests_run.dir/TestsLab6/TestsForMultiply.cpp.obj"
+  "C:/Proga for BSU/Lab--6/TestsLab6/TestsForNum&Den.cpp" "C:/Proga for BSU/Lab--6/cmake-build-debug/CMakeFiles/Google_Tests_run.dir/TestsLab6/TestsForNum&Den.cpp.obj"
+  "C:/Proga for BSU/Lab--6/TestsLab6/TestsForSum.cpp" "C:/Proga for BSU/Lab--6/cmake-build-debug/CMakeFiles/Google_Tests_run.dir/TestsLab6/TestsForSum.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

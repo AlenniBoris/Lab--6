@@ -336,17 +336,17 @@ cxxabi.h
 acxx_demangle.h
 -
 
-C:/Proga for BSU/Lab--6/FunctionsLab.h
+C:/Proga for BSU/Lab--6/Functions/FunctionsLab.h
 iostream
 -
 cassert
 -
-algorithm
+numeric
 -
 
-C:/Proga for BSU/Lab--6/tests.cpp
+C:/Proga for BSU/Lab--6/TestsLab6/TestsForDivision.cpp
 gtest/gtest.h
-C:/Proga for BSU/Lab--6/gtest/gtest.h
-FunctionsLab.h
-C:/Proga for BSU/Lab--6/FunctionsLab.h
+C:/Proga for BSU/Lab--6/TestsLab6/gtest/gtest.h
+../Functions/FunctionsLab.h
+C:/Proga for BSU/Lab--6/Functions/FunctionsLab.h
 

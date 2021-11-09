@@ -364,11 +364,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Proga for BSU/Lab--6/FunctionsLab.cpp">
+		<Unit filename="C:/Proga for BSU/Lab--6/Functions/FunctionsLab.cpp">
 			<Option target="Lab__6"/>
+			<Option target="Google_Tests_run"/>
 		</Unit>
-		<Unit filename="C:/Proga for BSU/Lab--6/FunctionsLab.h">
+		<Unit filename="C:/Proga for BSU/Lab--6/Functions/FunctionsLab.h">
 			<Option target="Lab__6"/>
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="C:/Proga for BSU/Lab--6/TestsLab6/TestsForDivision.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="C:/Proga for BSU/Lab--6/TestsLab6/TestsForMultiply.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="C:/Proga for BSU/Lab--6/TestsLab6/TestsForNum&amp;Den.cpp">
+			<Option target="Google_Tests_run"/>
+		</Unit>
+		<Unit filename="C:/Proga for BSU/Lab--6/TestsLab6/TestsForSum.cpp">
 			<Option target="Google_Tests_run"/>
 		</Unit>
 		<Unit filename="C:/Proga for BSU/Lab--6/googletest/googlemock/src/gmock-all.cc">
@@ -388,12 +401,6 @@
 		</Unit>
 		<Unit filename="C:/Proga for BSU/Lab--6/main.cpp">
 			<Option target="Lab__6"/>
-		</Unit>
-		<Unit filename="C:/Proga for BSU/Lab--6/tests.cpp">
-			<Option target="Google_Tests_run"/>
-		</Unit>
-		<Unit filename="C:/Proga for BSU/Lab--6/tests.h">
-			<Option target="Google_Tests_run"/>
 		</Unit>
 		<Unit filename="C:/Proga for BSU/Lab--6/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

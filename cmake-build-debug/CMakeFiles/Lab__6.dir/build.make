@@ -74,35 +74,35 @@ CMakeFiles\Lab__6.dir\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Lab__6.dir\main.cpp.s /c "C:\Proga for BSU\Lab--6\main.cpp"
 <<
 
-CMakeFiles\Lab__6.dir\FunctionsLab.cpp.obj: CMakeFiles\Lab__6.dir\flags.make
-CMakeFiles\Lab__6.dir\FunctionsLab.cpp.obj: ..\FunctionsLab.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Proga for BSU\Lab--6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab__6.dir/FunctionsLab.cpp.obj"
+CMakeFiles\Lab__6.dir\Functions\FunctionsLab.cpp.obj: CMakeFiles\Lab__6.dir\flags.make
+CMakeFiles\Lab__6.dir\Functions\FunctionsLab.cpp.obj: ..\Functions\FunctionsLab.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Proga for BSU\Lab--6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab__6.dir/Functions/FunctionsLab.cpp.obj"
 	C:\PROGRA~2\MIB055~1\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Lab__6.dir\FunctionsLab.cpp.obj /FdCMakeFiles\Lab__6.dir\ /FS -c "C:\Proga for BSU\Lab--6\FunctionsLab.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Lab__6.dir\Functions\FunctionsLab.cpp.obj /FdCMakeFiles\Lab__6.dir\ /FS -c "C:\Proga for BSU\Lab--6\Functions\FunctionsLab.cpp"
 <<
 
-CMakeFiles\Lab__6.dir\FunctionsLab.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab__6.dir/FunctionsLab.cpp.i"
-	C:\PROGRA~2\MIB055~1\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Lab__6.dir\FunctionsLab.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Proga for BSU\Lab--6\FunctionsLab.cpp"
+CMakeFiles\Lab__6.dir\Functions\FunctionsLab.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab__6.dir/Functions/FunctionsLab.cpp.i"
+	C:\PROGRA~2\MIB055~1\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Lab__6.dir\Functions\FunctionsLab.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Proga for BSU\Lab--6\Functions\FunctionsLab.cpp"
 <<
 
-CMakeFiles\Lab__6.dir\FunctionsLab.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab__6.dir/FunctionsLab.cpp.s"
+CMakeFiles\Lab__6.dir\Functions\FunctionsLab.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab__6.dir/Functions/FunctionsLab.cpp.s"
 	C:\PROGRA~2\MIB055~1\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Lab__6.dir\FunctionsLab.cpp.s /c "C:\Proga for BSU\Lab--6\FunctionsLab.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Lab__6.dir\Functions\FunctionsLab.cpp.s /c "C:\Proga for BSU\Lab--6\Functions\FunctionsLab.cpp"
 <<
 
 # Object files for target Lab__6
 Lab__6_OBJECTS = \
 "CMakeFiles\Lab__6.dir\main.cpp.obj" \
-"CMakeFiles\Lab__6.dir\FunctionsLab.cpp.obj"
+"CMakeFiles\Lab__6.dir\Functions\FunctionsLab.cpp.obj"
 
 # External object files for target Lab__6
 Lab__6_EXTERNAL_OBJECTS =
 
 Lab__6.exe: CMakeFiles\Lab__6.dir\main.cpp.obj
-Lab__6.exe: CMakeFiles\Lab__6.dir\FunctionsLab.cpp.obj
+Lab__6.exe: CMakeFiles\Lab__6.dir\Functions\FunctionsLab.cpp.obj
 Lab__6.exe: CMakeFiles\Lab__6.dir\build.make
 Lab__6.exe: CMakeFiles\Lab__6.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Proga for BSU\Lab--6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Lab__6.exe"

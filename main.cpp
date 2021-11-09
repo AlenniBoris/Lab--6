@@ -1,4 +1,4 @@
-#include "FunctionsLab.h"
+#include "Functions/FunctionsLab.h"
 
 int main() {
     solution();

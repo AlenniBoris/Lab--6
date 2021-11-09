@@ -55,39 +55,123 @@ include CMakeFiles\Google_Tests_run.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\Google_Tests_run.dir\flags.make
 
-CMakeFiles\Google_Tests_run.dir\tests.cpp.obj: CMakeFiles\Google_Tests_run.dir\flags.make
-CMakeFiles\Google_Tests_run.dir\tests.cpp.obj: ..\tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Proga for BSU\Lab--6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Google_Tests_run.dir/tests.cpp.obj"
+CMakeFiles\Google_Tests_run.dir\Functions\FunctionsLab.cpp.obj: CMakeFiles\Google_Tests_run.dir\flags.make
+CMakeFiles\Google_Tests_run.dir\Functions\FunctionsLab.cpp.obj: ..\Functions\FunctionsLab.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Proga for BSU\Lab--6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Google_Tests_run.dir/Functions/FunctionsLab.cpp.obj"
 	C:\PROGRA~2\MIB055~1\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Google_Tests_run.dir\tests.cpp.obj /FdCMakeFiles\Google_Tests_run.dir\ /FS -c "C:\Proga for BSU\Lab--6\tests.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Google_Tests_run.dir\Functions\FunctionsLab.cpp.obj /FdCMakeFiles\Google_Tests_run.dir\ /FS -c "C:\Proga for BSU\Lab--6\Functions\FunctionsLab.cpp"
 <<
 
-CMakeFiles\Google_Tests_run.dir\tests.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Google_Tests_run.dir/tests.cpp.i"
-	C:\PROGRA~2\MIB055~1\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Google_Tests_run.dir\tests.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Proga for BSU\Lab--6\tests.cpp"
+CMakeFiles\Google_Tests_run.dir\Functions\FunctionsLab.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Google_Tests_run.dir/Functions/FunctionsLab.cpp.i"
+	C:\PROGRA~2\MIB055~1\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Google_Tests_run.dir\Functions\FunctionsLab.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Proga for BSU\Lab--6\Functions\FunctionsLab.cpp"
 <<
 
-CMakeFiles\Google_Tests_run.dir\tests.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Google_Tests_run.dir/tests.cpp.s"
+CMakeFiles\Google_Tests_run.dir\Functions\FunctionsLab.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Google_Tests_run.dir/Functions/FunctionsLab.cpp.s"
 	C:\PROGRA~2\MIB055~1\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Google_Tests_run.dir\tests.cpp.s /c "C:\Proga for BSU\Lab--6\tests.cpp"
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Google_Tests_run.dir\Functions\FunctionsLab.cpp.s /c "C:\Proga for BSU\Lab--6\Functions\FunctionsLab.cpp"
+<<
+
+CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForMultiply.cpp.obj: CMakeFiles\Google_Tests_run.dir\flags.make
+CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForMultiply.cpp.obj: ..\TestsLab6\TestsForMultiply.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Proga for BSU\Lab--6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Google_Tests_run.dir/TestsLab6/TestsForMultiply.cpp.obj"
+	C:\PROGRA~2\MIB055~1\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForMultiply.cpp.obj /FdCMakeFiles\Google_Tests_run.dir\ /FS -c "C:\Proga for BSU\Lab--6\TestsLab6\TestsForMultiply.cpp"
+<<
+
+CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForMultiply.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Google_Tests_run.dir/TestsLab6/TestsForMultiply.cpp.i"
+	C:\PROGRA~2\MIB055~1\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForMultiply.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Proga for BSU\Lab--6\TestsLab6\TestsForMultiply.cpp"
+<<
+
+CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForMultiply.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Google_Tests_run.dir/TestsLab6/TestsForMultiply.cpp.s"
+	C:\PROGRA~2\MIB055~1\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForMultiply.cpp.s /c "C:\Proga for BSU\Lab--6\TestsLab6\TestsForMultiply.cpp"
+<<
+
+CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForSum.cpp.obj: CMakeFiles\Google_Tests_run.dir\flags.make
+CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForSum.cpp.obj: ..\TestsLab6\TestsForSum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Proga for BSU\Lab--6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Google_Tests_run.dir/TestsLab6/TestsForSum.cpp.obj"
+	C:\PROGRA~2\MIB055~1\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForSum.cpp.obj /FdCMakeFiles\Google_Tests_run.dir\ /FS -c "C:\Proga for BSU\Lab--6\TestsLab6\TestsForSum.cpp"
+<<
+
+CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForSum.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Google_Tests_run.dir/TestsLab6/TestsForSum.cpp.i"
+	C:\PROGRA~2\MIB055~1\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForSum.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Proga for BSU\Lab--6\TestsLab6\TestsForSum.cpp"
+<<
+
+CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForSum.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Google_Tests_run.dir/TestsLab6/TestsForSum.cpp.s"
+	C:\PROGRA~2\MIB055~1\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForSum.cpp.s /c "C:\Proga for BSU\Lab--6\TestsLab6\TestsForSum.cpp"
+<<
+
+CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForNum&Den.cpp.obj: CMakeFiles\Google_Tests_run.dir\flags.make
+CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForNum&Den.cpp.obj: ..\TestsLab6\TestsForNum&Den.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Proga for BSU\Lab--6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Google_Tests_run.dir/TestsLab6/TestsForNum&Den.cpp.obj"
+	C:\PROGRA~2\MIB055~1\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /Fo"CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForNum&Den.cpp.obj" /FdCMakeFiles\Google_Tests_run.dir\ /FS -c "C:\Proga for BSU\Lab--6\TestsLab6\TestsForNum&Den.cpp"
+<<
+
+CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForNum&Den.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Google_Tests_run.dir/TestsLab6/TestsForNum&Den.cpp.i"
+	C:\PROGRA~2\MIB055~1\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > "CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForNum&Den.cpp.i" @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Proga for BSU\Lab--6\TestsLab6\TestsForNum&Den.cpp"
+<<
+
+CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForNum&Den.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Google_Tests_run.dir/TestsLab6/TestsForNum&Den.cpp.s"
+	C:\PROGRA~2\MIB055~1\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /Fa"CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForNum&Den.cpp.s" /c "C:\Proga for BSU\Lab--6\TestsLab6\TestsForNum&Den.cpp"
+<<
+
+CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForDivision.cpp.obj: CMakeFiles\Google_Tests_run.dir\flags.make
+CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForDivision.cpp.obj: ..\TestsLab6\TestsForDivision.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Proga for BSU\Lab--6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Google_Tests_run.dir/TestsLab6/TestsForDivision.cpp.obj"
+	C:\PROGRA~2\MIB055~1\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForDivision.cpp.obj /FdCMakeFiles\Google_Tests_run.dir\ /FS -c "C:\Proga for BSU\Lab--6\TestsLab6\TestsForDivision.cpp"
+<<
+
+CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForDivision.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Google_Tests_run.dir/TestsLab6/TestsForDivision.cpp.i"
+	C:\PROGRA~2\MIB055~1\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForDivision.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Proga for BSU\Lab--6\TestsLab6\TestsForDivision.cpp"
+<<
+
+CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForDivision.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Google_Tests_run.dir/TestsLab6/TestsForDivision.cpp.s"
+	C:\PROGRA~2\MIB055~1\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForDivision.cpp.s /c "C:\Proga for BSU\Lab--6\TestsLab6\TestsForDivision.cpp"
 <<
 
 # Object files for target Google_Tests_run
 Google_Tests_run_OBJECTS = \
-"CMakeFiles\Google_Tests_run.dir\tests.cpp.obj"
+"CMakeFiles\Google_Tests_run.dir\Functions\FunctionsLab.cpp.obj" \
+"CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForMultiply.cpp.obj" \
+"CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForSum.cpp.obj" \
+"CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForNum&Den.cpp.obj" \
+"CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForDivision.cpp.obj"
 
 # External object files for target Google_Tests_run
 Google_Tests_run_EXTERNAL_OBJECTS =
 
-Google_Tests_run.exe: CMakeFiles\Google_Tests_run.dir\tests.cpp.obj
+Google_Tests_run.exe: CMakeFiles\Google_Tests_run.dir\Functions\FunctionsLab.cpp.obj
+Google_Tests_run.exe: CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForMultiply.cpp.obj
+Google_Tests_run.exe: CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForSum.cpp.obj
+Google_Tests_run.exe: CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForNum&Den.cpp.obj
+Google_Tests_run.exe: CMakeFiles\Google_Tests_run.dir\TestsLab6\TestsForDivision.cpp.obj
 Google_Tests_run.exe: CMakeFiles\Google_Tests_run.dir\build.make
 Google_Tests_run.exe: lib\gtestd.lib
 Google_Tests_run.exe: lib\gtest_maind.lib
 Google_Tests_run.exe: lib\gtestd.lib
 Google_Tests_run.exe: CMakeFiles\Google_Tests_run.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Proga for BSU\Lab--6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Google_Tests_run.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Proga for BSU\Lab--6\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Google_Tests_run.exe"
 	"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Google_Tests_run.dir --rc=C:\WINDOW~1\10\bin\100190~1.0\x86\rc.exe --mt=C:\WINDOW~1\10\bin\100190~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MIB055~1\2019\ENTERP~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Google_Tests_run.dir\objects1.rsp @<<
  /out:Google_Tests_run.exe /implib:Google_Tests_run.lib /pdb:"C:\Proga for BSU\Lab--6\cmake-build-debug\Google_Tests_run.pdb" /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  lib\gtestd.lib lib\gtest_maind.lib lib\gtestd.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
