@@ -1,7 +1,6 @@
 #include "gtest/gtest.h"
 #include "../Functions/FunctionsLab.h"
 
-//Numerator
 TEST(TestNumerator, test1){
     fraction TestFraction(2,4);
     ASSERT_EQ(TestFraction.GetNumerator(),2);
@@ -26,7 +25,7 @@ TEST(TestNumerator, test6){
     fraction TestFraction(37,110);
     ASSERT_EQ(TestFraction.GetNumerator(), 37);
 }
-//Denominator
+
 TEST(TestDenominator, test1){
     fraction TestFraction(2,4);
     ASSERT_EQ(TestFraction.GetDenominator(),4);
