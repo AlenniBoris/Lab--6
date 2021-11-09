@@ -3,12 +3,14 @@
 
 #include <iostream>
 #include <cassert>
+#include <numeric>
+
 using  namespace std;
+
 class fraction {
 private:
     int num;
     int denominator;
-    int gcd (int a, int b);
     fraction(){
         num = 0;
         denominator = 1;

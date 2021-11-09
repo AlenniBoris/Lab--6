@@ -10,7 +10,8 @@ fraction fraction::ProperFraction(){
         fraction fr2(-num, -denominator);
         fr = fr2;
     }
-    int NOD = gcd(num, denominator);
+
+    int NOD = std::gcd(num, denominator);
     fraction fr4(fr.GetNumerator()/NOD, fr.GetDenominator()/NOD);
     fr = fr4;
     return fr;
@@ -27,17 +28,6 @@ int fraction::GetDenominator(){
 void fraction::ShowFraction(){
     fraction FracAfterGCD = ProperFraction();
     cout << FracAfterGCD.GetNumerator() << '/' << FracAfterGCD.GetDenominator() <<endl;
-}
-
-int fraction::gcd(int a, int b) {
-    if (a < b) {
-        swap(a, b);
-    }
-    while (a % b != 0) {
-        a = a % b;
-        swap(a, b);
-    }
-    return b;
 }
 
 fraction fraction::Sum(fraction x, fraction y) {
