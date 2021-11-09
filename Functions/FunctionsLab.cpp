@@ -56,8 +56,8 @@ bool operator==(const fraction& Frac1,const fraction& Frac2){
 }
 
 void solution() {
-    fraction Frac1(15, 5);
-    fraction Frac2(6, 2);
+    fraction Frac1(15, 85);
+    fraction Frac2(6, 22);
     Frac1.ShowFraction();
     Frac2.ShowFraction();
     fraction fr_sum = fraction::Multiply(Frac1, Frac2);
