@@ -33,7 +33,6 @@ public:
         denominator = frac.denominator;
     }
 };
-
 bool operator==(const fraction& Frac1,const fraction& Frac2);
 void solution();
 
