@@ -1,5 +1,7 @@
 #include "FunctionsLab.h"
 
+
+
 fraction fraction::ProperFraction(){
     fraction fr(num, denominator);
     if(denominator < 0 && num < 0 ){

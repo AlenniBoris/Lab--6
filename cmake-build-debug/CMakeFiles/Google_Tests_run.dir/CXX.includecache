@@ -336,6 +336,10 @@ cxxabi.h
 acxx_demangle.h
 -
 
+C:/Proga for BSU/Lab--6/Functions/FunctionsLab.cpp
+FunctionsLab.h
+C:/Proga for BSU/Lab--6/Functions/FunctionsLab.h
+
 C:/Proga for BSU/Lab--6/Functions/FunctionsLab.h
 iostream
 -
@@ -345,6 +349,24 @@ numeric
 -
 
 C:/Proga for BSU/Lab--6/TestsLab6/TestsForDivision.cpp
+gtest/gtest.h
+C:/Proga for BSU/Lab--6/TestsLab6/gtest/gtest.h
+../Functions/FunctionsLab.h
+C:/Proga for BSU/Lab--6/Functions/FunctionsLab.h
+
+C:/Proga for BSU/Lab--6/TestsLab6/TestsForMultiply.cpp
+gtest/gtest.h
+C:/Proga for BSU/Lab--6/TestsLab6/gtest/gtest.h
+../Functions/FunctionsLab.h
+C:/Proga for BSU/Lab--6/Functions/FunctionsLab.h
+
+C:/Proga for BSU/Lab--6/TestsLab6/TestsForNum&Den.cpp
+gtest/gtest.h
+C:/Proga for BSU/Lab--6/TestsLab6/gtest/gtest.h
+../Functions/FunctionsLab.h
+C:/Proga for BSU/Lab--6/Functions/FunctionsLab.h
+
+C:/Proga for BSU/Lab--6/TestsLab6/TestsForSum.cpp
 gtest/gtest.h
 C:/Proga for BSU/Lab--6/TestsLab6/gtest/gtest.h
 ../Functions/FunctionsLab.h
